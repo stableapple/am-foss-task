@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <cs50.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
@@ -13,14 +12,7 @@ int main(int argc, string argv[])
 }
     int key = atoi(argv[1]);
     
-    string plaintext
-    do
-    {
-        printf("plaintext: ");
-        plaintext= get_string();
-    while(plaintext-- NULL);
-    
-    printf("ciphertext: ");
+   
     for(i = 0 , len = strlen(plaintext); i<len; i++)
     {
         if(isupper(plaintext[i]))
