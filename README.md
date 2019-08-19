@@ -2,7 +2,7 @@
 The am-foss task repository consist of  the details of the tasks i completed. It describes my approach to the solutions, by which you can judge my understanding on the subject.
 
 ## list of task 
-Task 0:  
+Task 0:   Ubuntu installation
 
 Task 1:   https://github.com/stableapple/am-foss-task/blob/master/star%20me.PNG
 
