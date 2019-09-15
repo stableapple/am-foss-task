@@ -12,6 +12,10 @@ Task 7:   https://github.com/stableapple/amfoss-tasks/blob/master/Email%20valida
 
 Task 9:   https://github.com/stableapple/amfoss-tasks/tree/master/personal%20website
 
+Task 8:  https://github.com/stableapple/amfoss-tasks/blob/master/Captcha%20breaking
+
 Task 10:  https://github.com/stableapple/am-foss-task/tree/master/cs50/problem%20set%202
+
+
 
 
