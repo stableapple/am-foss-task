@@ -1,0 +1,19 @@
+from PIL import Image, ImageMath
+from pytesseract import image_to_string
+import re
+image = Image.open('index.png')
+
+
+num = image_to_string(image)
+p=re.compile('\d')
+x= p.findall(num)
+y= int(x[0])
+z= int(x[2])
+if "+" in num:
+	print(y+z)
+if "-" in num:
+	print(y-z)
+if "*" in num:
+	print(y*z)
+if "/" in num:
+	print(y/z)
