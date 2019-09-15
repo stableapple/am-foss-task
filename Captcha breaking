@@ -4,9 +4,9 @@ import re
 image = Image.open('index.png')
 
 
-num = image_to_string(image)
-p=re.compile('\d')
-x= p.findall(num)
+num = image_to_string(image)  // Converts the number on the image to a string
+p=re.compile('\d') // Converts the string recieved from num into list
+x= p.findall(num) // Seperates the list into individual components
 y= int(x[0])
 z= int(x[2])
 if "+" in num:
